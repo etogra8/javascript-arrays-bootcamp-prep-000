@@ -2,8 +2,7 @@ var chocolateBars = ['snickers','hundred grand','kitkat','skittles'];
 
 function addElementToBeginningOfArray() {
   var cars = ['Toyota','Dodge','Mercedes'];
-  var moreCars = ['Porsche',...cars];
-  return moreCars;
+  return ['Porsche',...cars];
 }
 
 function destructivelyAddElementToBeginningOfArray() {
