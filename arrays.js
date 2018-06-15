@@ -12,8 +12,7 @@ function destructivelyAddElementToBeginningOfArray() {
 
 function addElementToEndOfArray() {
   var shapes = ['Square','Circle','Triangle'];
-  var moreShapes = [...shapes,'Rectangle'];
-  return moreShapes;
+  return [...shapes,'Rectangle'];
 }
 
 function destructivelyAddElementToEndOfArray() {
