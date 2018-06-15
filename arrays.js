@@ -44,3 +44,4 @@ function removeElementFromEndOfArray() {
   var fruits = ['Apple','Banana','Mango'];
   return fruits.slice(0,fruits.lenght-1);
 }
+
